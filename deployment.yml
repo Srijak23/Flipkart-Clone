@@ -25,6 +25,7 @@ kind: Service
 metadata:
   name: flip-svc
 spec:
+  type: NodePort
   selector:
     app: flipkart
   ports:
