@@ -19,7 +19,7 @@ spec:
         image: sreeja026/flip-image:v1
         ports:
         - containerPort: 80
-                resources:
+        resources:
           requests:
             memory: "256Mi"   # minimum memory guaranteed
             cpu: "250m"       # minimum CPU guaranteed
